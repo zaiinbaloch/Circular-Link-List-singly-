@@ -92,6 +92,7 @@ public:
 		else if (temp == tail) {
 			prev->next = head;
 			tail = prev;
+			temp->next=NULL;
 		}
 		else {
 			cout << "target not found \n";
