@@ -104,7 +104,7 @@ public:
 		Node* temp;
 			temp = head;
 			if (head == NULL) {
-				cout << "Link list is empty at the moment \n";
+				cout << "Link list is empty at the moment initilize the list first \n";
 				return;
 			}
 		cout << temp->data << " -> ";
@@ -187,7 +187,7 @@ int main() {
 				cout << "Current list : ";
 				l.print();
 
-				cout << "Enter a target value after which you want to delete from list : ";
+				cout << "Enter a target value which you want to delete from list : ";
 				cin >> t;
 				l.delnode( t);
 				system("cls");
